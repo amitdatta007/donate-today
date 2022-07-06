@@ -124,13 +124,13 @@ h3{
     justify-content: center;
 }
 .plan-card{
-    height: 380px;
+    height: 280px;
     width: 330px;
-    padding: 0 25px;
+    padding: 50px 25px;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     gap: 20px;
 }
 .plan-card img{
@@ -259,3 +259,53 @@ footer p{
     font-size: 0.8rem;
 }
  /* footer css end here  */
+
+
+
+
+
+
+.Volunteer-area{
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.members{
+    width: 70%;
+    height: 280px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+.member-card{
+    width: 20%;
+    height: 100%;
+}
+.member-card img{
+    width: 100%;
+    height: 85%;
+}
+.vol-info{
+    width: 40%;
+    height: 180px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.vol-info-area{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.vol-info-area img{
+    width: 40px;
+}
